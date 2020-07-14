@@ -4,7 +4,11 @@ Stemreversals is an api that, given a word, provides a list of words with the sa
 
 ## Use
 
-Make a `GET` request to: <endpoint>/<word>
+Make a `GET` request to: 
+
+```
+endpoint/:word
+```
 
 Stemreversals will respond with
 
@@ -12,7 +16,7 @@ Stemreversals will respond with
 {
   "input": <word>,
   "stem": <word_stem>,
-  "words": [<words_with_common_stems>]
+  "words": [<words_with_common_stem>]
 }
 ```
 
