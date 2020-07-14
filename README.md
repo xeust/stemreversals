@@ -26,6 +26,4 @@ From this point forwards, the result is cached in a database and is fast.
 
 Currently configured to use the Lancaster stemmer. Snowball is a bit faster but less aggressive.
 
-Demo: [https://36u6oj.deta.dev/](https://36u6oj.deta.dev/)
-
 Built using [flask](https://flask.palletsprojects.com/en/1.1.x/) and [nltk](https://www.nltk.org/), running on [deta](https://www.deta.sh/) (examples using Micros & Base).
